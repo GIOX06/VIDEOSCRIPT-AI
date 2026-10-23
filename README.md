@@ -1,4 +1,6 @@
-# VideoScript AI Studio
+# VIDEOSCRIPT-AI
+
+**VideoScript AI Studio**
 
 **Usi Windows e vuoi iniziare subito? Segui [INIZIA_QUI_WINDOWS.md](INIZIA_QUI_WINDOWS.md).**
 
