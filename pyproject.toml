@@ -1,0 +1,21 @@
+[project]
+name = "videoscript-ai-studio"
+version = "0.1.0"
+description = "Local audiovisual annotation, transcription and preliminary quality control"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.34,<1",
+  "python-multipart>=0.0.20,<1",
+  "httpx>=0.28,<1",
+]
+
+[project.optional-dependencies]
+ai = ["faster-whisper>=1.2,<2"]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[tool.pytest.ini_options]
+pythonpath = ["backend"]
+testpaths = ["tests"]
